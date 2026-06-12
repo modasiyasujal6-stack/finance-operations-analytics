@@ -125,27 +125,27 @@ Dynamic DAX measures were developed for KPIs including:
 
 Interactive dashboards were built for:
 
-### 👔 Executive Dashboard
+###  Executive Dashboard
 
 High-level financial performance overview
 
-### 💰 Receivables Analysis
+###  Receivables Analysis
 
 Collection monitoring and aging analysis
 
-### 📄 Payables Analysis
+###  Payables Analysis
 
 Vendor liability and payment tracking
 
-### 🏦 Treasury / Cash Flow Analysis
+###  Treasury / Cash Flow Analysis
 
 Liquidity and cash movement tracking
 
-### 📈 Budget vs Actual Analysis
+###  Budget vs Actual Analysis
 
 Budget performance monitoring
 
-### 📚 Data Dictionary
+###  Data Dictionary
 
 Business definitions and metric explanations
 
