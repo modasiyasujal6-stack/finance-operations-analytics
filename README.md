@@ -284,17 +284,9 @@ Business Insights
 
 ## Sujal Modasiya
 
-Aspiring Data Analyst passionate about:
+Aspiring Data Analyst passionate about Finance Analytics, SQL, Python, and Business Intelligence.
 
- Finance Analytics
-
- SQL & Databases
-
- Python
-
- Business Intelligence
-
- Data-Driven Decision Making
+This project was built to demonstrate practical skills in building a complete analytics solution from data generation to executive-level reporting.
 
 ---
 
