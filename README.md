@@ -1,218 +1,220 @@
-# 📊 Finance Operations Analytics Dashboard
+# 📊 Business Insights 360 - FMCG Analytics Dashboard
 
-## 🚀 Project Overview
+<div align="center">
 
-Finance Operations Analytics is an end-to-end Business Intelligence project designed to monitor an organization's financial performance across **Receivables, Payables, Treasury (Cash Flow), and Budget vs Actual Analysis**.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data_Modeling-blue?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power_Query-Transformation-green?style=for-the-badge)
+![FMCG](https://img.shields.io/badge/Domain-FMCG-orange?style=for-the-badge)
 
-The project demonstrates a complete analytics pipeline, starting from **synthetic data generation using Python**, storing data in **PostgreSQL**, transforming it using **SQL Views**, and finally building an interactive **Power BI dashboard** for business decision-making.
+### 🚀 Multi-Functional Business Analytics Solution
 
----
+Analyzing Finance, Sales, Marketing, Supply Chain, Executive and Product performance through interactive Power BI dashboards.
 
-# ❓ Problem Statement
+🔗 **Live Dashboard:**  
+[View Report](https://app.powerbi.com/view?r=eyJrIjoiNTRhZTJhZGItOGIxMi00OWJiLTgzYzktNmRmNmQ0ZjBlMDYzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
-Finance teams often work with large volumes of transactional data spread across multiple systems such as sales, receivables, payables, bank transactions, and budgets.
-
-Because this data is scattered across different tables and systems, management faces several challenges:
-
-* Unable to track outstanding customer receivables efficiently.
-* Difficult to identify overdue vendor payments.
-* Limited visibility into daily cash flow and liquidity position.
-* No centralized monitoring of Budget vs Actual spending.
-* Decision-making depends on manual Excel reports, increasing reporting time and reducing accuracy.
-
-A centralized analytics solution was required to transform raw financial data into meaningful business insights.
+</div>
 
 ---
 
-# 🎯 Project Objective
+# 🎯 Project Overview
 
-The objective of this project was to build a centralized Finance Operations Analytics Dashboard that enables stakeholders to:
+Business Insights 360 is a comprehensive Power BI analytics solution built during the Codebasics Power BI learning program.
 
-* Monitor company financial health.
-* Track receivables and overdue collections.
-* Monitor vendor liabilities and payment efficiency.
-* Analyze cash flow and treasury position.
-* Compare actual spending against planned budgets.
-* Make faster and data-driven financial decisions.
+The dashboard consolidates data from multiple business functions into a single reporting platform, enabling stakeholders to monitor performance, identify growth opportunities, optimize forecasting accuracy, and drive strategic decisions.
 
 ---
 
-# ⚙️ Solution Approach
+# 🏢 Business Problem
 
-The project follows an end-to-end analytics pipeline.
+Organizations often struggle to obtain a unified view of business performance across departments.
 
-### Step 1 – Data Generation
+This dashboard helps decision-makers:
 
-Python was used to generate realistic finance data including:
+✅ Monitor Revenue & Profitability
 
-* Customers
-* Vendors
-* Sales Transactions
-* Receivables
-* Payables
-* Budget Data
-* Expense Entries
-* Bank Transactions
+✅ Analyze Customer & Product Performance
 
----
+✅ Evaluate Market Performance
 
-### Step 2 – Database
+✅ Improve Forecast Accuracy
 
-Generated data is stored in a normalized PostgreSQL database.
+✅ Track Supply Chain Efficiency
 
----
-
-### Step 3 – SQL Transformation
-
-Business logic was implemented using SQL Views such as:
-
-* Receivables Aging
-* Payables Aging
-* Running Cash Balance
-* Daily Cash Summary
-* Monthly Closing
-* Budget vs Actual Summary
-
-This transformation layer simplifies reporting and improves dashboard performance.
-
----
-
-### Step 4 – Power BI Modeling
-
-A Star Schema data model was created with Dimension and Fact tables.
-
-Dynamic DAX measures were developed for KPIs including:
-
-* Total Revenue
-* Net Profit
-* Profit Margin
-* Outstanding Receivables
-* Outstanding Payables
-* Current Cash Balance
-* DSO
-* DPO
-* Budget Variance
-* Net Cash Flow
-
----
-
-### Step 5 – Dashboard Development
-
-Interactive dashboards were built for different business functions:
-
-* Executive Dashboard
-* Receivables Analysis
-* Payables Analysis
-* Treasury / Cash Flow Analysis
-* Budget vs Actual Analysis
-* Data Dictionary
+✅ Enable Data-Driven Decision Making
 
 ---
 
 # 🛠️ Tech Stack
 
-* **Python**
-* **PostgreSQL**
-* **SQL**
-* **Power BI**
-* **DAX**
-* **Faker**
-* **SQLAlchemy**
-* **Pandas**
-* **NumPy**
+| Category | Tools |
+|-----------|--------|
+| Visualization | Power BI |
+| Data Modeling | Star Schema |
+| Transformation | Power Query |
+| Calculations | DAX |
+| Data Source | Excel |
+| Design | Interactive Dashboard UI |
 
 ---
 
-# 📈 Business Impact
+# 📌 Dashboard Views
 
-This solution provides a single source of truth for finance operations and helps stakeholders:
+## 💰 Finance View
 
-* Improve collection monitoring.
-* Identify overdue receivables and payables.
-* Track cash position in real time.
-* Analyze budget utilization across departments.
-* Reduce manual reporting efforts.
-* Enable faster financial decision-making.
-
----
-
-# 🏗️ Project Architecture
-
-Python Data Generator
-
-⬇
-
-PostgreSQL Database
-
-⬇
-
-SQL Views & Transformations
-
-⬇
-
-Power BI Data Model
-
-⬇
-
-DAX Measures
-
-⬇
-
-Interactive Dashboard
-
-⬇
-
-Business Insights
+- Net Sales Analysis
+- Gross Margin Tracking
+- Net Profit Monitoring
+- P&L Statement
+- Regional Performance Analysis
 
 ---
 
-# 📌 Key Features
+## 📈 Sales View
 
-* Automated synthetic financial data generation
-* End-to-end analytics pipeline
-* SQL View-based business logic
-* Interactive Power BI dashboards
-* Executive-level KPI monitoring
-* Treasury and Cash Flow analytics
-* Receivables & Payables aging analysis
-* Budget vs Actual variance analysis
-* Comprehensive Data Dictionary documentation
+- Customer Performance
+- Product Performance
+- Revenue Analysis
+- Gross Margin Analysis
+- Customer Profitability
 
 ---
 
-📊 Live Dashboard
-The interactive Power BI dashboard is available at:
+## 📣 Marketing View
 
-🔗 (Finance Project : https://app.powerbi.com/view?r=eyJrIjoiMjEwNGMwMjgtOTNmNi00MTNlLTgyYjAtZTU2Y2MxMjNmYzM1IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-
-If the dashboard is unavailable, please refer to the screenshots folder for dashboard previews.
+- Market Performance Analysis
+- Revenue Contribution
+- Profitability Monitoring
+- Regional Comparison
 
 ---
 
-# 🔮 Future Enhancements
+## 🚚 Supply Chain View
 
-* Scheduled ETL pipeline
-* Power BI Service deployment
-* Row-Level Security (RLS)
-* Automated data refresh
+- Forecast Accuracy %
+- Net Error Analysis
+- Absolute Error Tracking
+- Customer Risk Analysis
+- Product Risk Analysis
+
+---
+
+## 👔 Executive View
+
+- Company Performance Overview
+- Top Products
+- Top Customers
+- Revenue Contribution
+- Strategic KPI Monitoring
+
+---
+
+## 📦 Product View
+
+> Developed as part of an independent dashboard enhancement task.
+
+- Top & Bottom Product Analysis
+- Gross Margin % YoY
+- Discount Trend Analysis
+- Product Ranking
+- Product Profitability Insights
+
+---
+
+# 📊 Key KPIs
+
+| KPI | Description |
+|------|-------------|
+|  Net Sales | Revenue generated after deductions |
+|  Gross Margin % | Profitability before operating expenses |
+|  Net Profit % | Final profitability |
+|  Forecast Accuracy % | Supply chain prediction performance |
+|  Market Share | Market performance contribution |
+|  Customer Performance | Customer-level analysis |
+|  Product Performance | Product-level profitability |
+|  Net Error | Forecast deviation |
+|  Absolute Error | Demand planning accuracy |
+
+---
+
+# 🧠 Skills Demonstrated
+
+###  Power BI
+
+- Interactive Dashboard Development
+- KPI Reporting
+- Data Storytelling
+- Business Analytics
+
+###  DAX
+
+- Time Intelligence
+- Dynamic Measures
+- Variance Analysis
+- Forecast Accuracy Calculations
+- Profitability Metrics
+
+###  Data Modeling
+
+- Fact & Dimension Tables
+- Relationship Management
+- Star Schema Design
+
+###  Dashboard Design
+
+- Bookmarks
+- Navigation Buttons
+- Dynamic Filters
+- Conditional Formatting
+- Interactive Visuals
+
+---
+
+# 🚀 Key Learnings
+
+ Business KPI Analysis
+
+ Financial Reporting Concepts
+
+ Sales & Marketing Analytics
+
+ Supply Chain Performance Monitoring
+
+ Stakeholder-Oriented Dashboard Design
+
+ Advanced DAX Development
+
+ Data Storytelling Techniques
+
+---
+
+# 📂 Repository Structure
+
+```text
+Business-Insights-360/
+│
+├── Screenshots/
+│   ├── finance.png
+│   ├── sales.png
+│   ├── marketing.png
+│   ├── supply_chain.png
+│   ├── executive.png
+│   └── product.png
+│
+└── README.md
+```
 
 ---
 
 # 👨‍💻 Author
 
-**Sujal Modasiya**
+### Sujal Modasiya
 
-Aspiring Data Analyst passionate about Finance Analytics, SQL, Python, and Business Intelligence.
+🔗 LinkedIn: www.linkedin.com/in/modasiya-sujal
+
+🔗 GitHub: https://github.com/modasiyasujal6-stack
 
 ---
 
-# 📬 Connect With Me
-
-* **LinkedIn:** [www.linkedin.com/in/modasiya-sujal](http://www.linkedin.com/in/modasiya-sujal)
-* **GitHub:** github.com/modasiyasujal6-stack
-* **Email:** [modasiyasujal6@gmail.com](mailto:modasiyasujal6@gmail.com)
-
-If you found this project useful, feel free to connect or provide feedback.
-
-
-This project was built to demonstrate practical skills in building a complete analytics solution from data generation to executive-level reporting.
+⭐ If you found this project interesting, consider giving it a star.
